@@ -1,0 +1,15 @@
+<html>
+<head>
+<script type="text/javascript" src="swfobject.js"></script>
+</head>
+<body>
+<div id='flashcontent1' style="position: absolute; top: 0px; left: 0px; z-index:1"></div>
+<script type="text/javascript">
+		// <![CDATA[
+		var so = new SWFObject("../../FLVLoopPlayer/bin/FLVLoopPlayer.swf", "flvloopplayer1", "320", "240", "0", "#FFFFFF", false, "high", null, null, false);
+		so.addVariable("link","http://www.softsprings.de");
+		so.write("flashcontent1");
+		// ]]>
+</script>
+</body>
+</html>
